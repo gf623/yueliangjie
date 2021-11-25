@@ -40,7 +40,7 @@ func main() {
 	a, err := rdb.Exists("foo").Result()
 	if err != nil {
 		fmt.Println("判断key存在失败")
-		return
+		// return
 	}
 
 	if a == 1 {
