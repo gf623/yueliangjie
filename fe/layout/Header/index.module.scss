@@ -3,8 +3,18 @@
   justify-content: center;
   align-items: center;
   line-height: 64px;
+  background: #ba8963;
+  // background: #5f3215;
 
   &-item {
     margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+      color: #89594d;
+    }
   }
 }

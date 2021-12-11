@@ -16,7 +16,10 @@
   background: #fff;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 64px 0;
+  padding-bottom: 64px;
+  margin-top: -64px;
+  /* background: #e6dfce; */
+  background: #d3ba96;
 }
 
 .footer {
