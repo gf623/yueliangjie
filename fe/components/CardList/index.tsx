@@ -8,7 +8,6 @@ interface IProps {
 
 const List: FC<IProps> = (props: IProps) => {
   const { list } = props;
-  console.log('_list', list);
   return (
     <div className={styles.list}>
       {list.map((item, index) => {

@@ -7,7 +7,7 @@
   // background: #5f3215;
 
   &-item {
-    margin: 0 50px;
+    padding: 0 20px;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
@@ -15,6 +15,11 @@
 
     &:hover {
       color: #89594d;
+      background: #644034;
     }
   }
+}
+
+.active {
+  color: #cad0cc;
 }
